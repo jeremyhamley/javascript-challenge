@@ -1,4 +1,18 @@
 // from data.js
 var tableData = data;
 
-// YOUR CODE HERE!
+// 
+console.log(tableData);
+
+var tbody = d3.select("tbody");
+
+
+tableData.forEach((sighting) => {
+    var row = tbody.append("tr");
+    Object.entries(weatherReport).forEach(([key, value]) => {
+      var cell = row.append("td");
+      cell.text(value);
+    });
+  });
+
+
