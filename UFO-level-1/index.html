@@ -3,19 +3,21 @@
 
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>UFO Sightings</title>
   <link rel="stylesheet" type="text/css" href="static/css/style.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" src="extensions/sticky-header/bootstrap-table-sticky-header.css">
 </head>
 ​
 
-<body style="background">
+<body>
   <nav class="navbar navbar-light bg-light navbar-expand-md fixed-top">
     <h5 class="navbar-brand">UFO Sightings</h5>
   </nav>
 
-  <div class="container-fluid background" style="margin-top: 50px;">
+  <div class="container-fluid" style="margin-top: 50px;">
 
     <div class="row m-1">
       <div class="col m-3" style="color: rgb(230, 225, 220);">
@@ -46,12 +48,11 @@
         </aside>
       </div>
       
-      <div class="col-7">
-        <div class="card">
+      <div class="col-9">
           <div class="table-responsive table-fixedheader" style="height:600px;overflow:scroll;">
             <table class="table table-hover table-sm">
-              <thead>
-                <tr style="text-align: left; background-color: rgb(234, 236, 240);">
+              <thead class="undefined sticky-header">
+                <tr style="text-align: left;">
                   <th class="table-head">Date</th>
                   <th class="table-head">City</th>
                   <th class="table-head">State</th>
@@ -65,11 +66,10 @@
 
               </tbody>
             </table>
-          </div>
         </div>
       </div>
 
-      <div class="col-3">
+      <div class="col-1">
 
       </div>
     </div>
@@ -84,6 +84,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
   <script src="static/js/data.js"></script>
   <script src="static/js/app.js"></script>
+  <script src="extensions/sticky-header/bootstrap-table-sticky-header.js"></script>
 </body>
 ​
 

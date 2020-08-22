@@ -1,17 +1,24 @@
-.centerhead
+body{
+    background: url(images/clouds.jpg) no-repeat center fixed;
+    background-size: cover;
+
+}
+
+table
     {
-    font-size: 60px;
-    text-align: center;
-    margin-bottom: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    }
-p
-    {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
 
 
 .background{background-color:rgb(0, 0, 0)}
+
+tr{color: white;
+}
+
+th{ color: black;
+
+}
+
 
 .foot{background-color:rgb(0, 0, 0)}
 
