@@ -14,7 +14,6 @@ var country_form = d3.select("#country_form");
 var shape_form = d3.select("#shape_form");
 
 
-
 // load the table with all of the sightings data
 tableData.forEach((sighting) => {
     var row = tbody.append("tr");
