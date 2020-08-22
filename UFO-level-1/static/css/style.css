@@ -13,16 +13,22 @@ table
 .background{background-color:rgb(0, 0, 0)}
 
 tr{color: white;
+    font-size: 18px;
 }
 
-th{ color: black;
+th{ color: rgb(1, 17, 70);
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 
 
 .foot{background-color:rgb(0, 0, 0)}
 
-.panel-heading{color: darkgrey;}
+.panel-heading{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
 
 #filter-btn{color: darkgrey;}
 #clear-btn{color: darkgrey;}
