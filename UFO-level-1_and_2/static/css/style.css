@@ -9,8 +9,7 @@ table
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
 
-
-.background{background-color:rgb(0, 0, 0)}
+h4 {color: rgba(128, 255, 0, 0.910)}
 
 tr{color: white;
     font-size: 18px;
@@ -19,18 +18,19 @@ tr{color: white;
 th{ color: rgb(1, 17, 70);
     font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
-
 }
 
+ .table-hover tbody tr:hover td {
+    background-color: rgba(255, 255, 255, 0.5);
+    font-size: 20px;    
+}
 
-.foot{background-color:rgb(0, 0, 0)}
 
 .panel-heading{
     color: rgb(0, 0, 0);
     font-size: 20px;
 }
 
-#filter-btn{color: darkgrey;}
 #clear-btn{color: darkgrey;}
 
 
