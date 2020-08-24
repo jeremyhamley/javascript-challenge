@@ -25,8 +25,8 @@ This project combines JavaScript, HTML, CSS, D3.js to create a dynamic webpage t
 ### Once the page is launched and the table is populated with data, D3.js adds the filter functionality.  Users can filter the UFO sightings data by Date, City, State, Country, and UFO shape. 
 <br>
 D3.js handles the events:
-    * __Clear Filter button__:  The Clear Filter button clears the contents of the table and reloads the raw data found in the **data.js** file.
-    * __Filter by forms__:  There are five forms on the left side of the page that users can use to filter the UFO Sightings data.  When a user enters specific criteria in the form (for example: a specific date), D3.js clears the table and returns the sightings that fit the criteria the user entered.
+- Clear Filter button:  The Clear Filter button clears the contents of the table and reloads the raw data found in the **data.js** file.
+- Filter by forms:  There are five forms on the left side of the page that users can use to filter the UFO Sightings data.  When a user enters specific criteria in the form (for example: a specific date), D3.js clears the table and returns the sightings that fit the criteria the user entered.
 
 <br>
 
