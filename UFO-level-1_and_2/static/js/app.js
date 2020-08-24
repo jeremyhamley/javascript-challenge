@@ -24,7 +24,6 @@ tableData.forEach((sighting) => {
   });
 
 
-
 // Create event handlers 
 clear_button.on("click", runClear);
 date_form.on("submit", runFilterDate);
