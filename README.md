@@ -21,7 +21,6 @@ This project combines JavaScript, HTML, CSS, D3.js to create a dynamic webpage t
 ### JavaScript and D3.js make the page dynmaic.
 - The JavaScript that directs all the action is located here:  **static/js/app.js**
 - The first thing the JavaScript does is load all the raw data.  The raw data for this site lives here:  **static/js/data.js**
-<br>
 ### D3.js adds the filter functionality.  
 Users can filter the UFO sightings data by Date, City, State, Country, and UFO shape.
 <br>
