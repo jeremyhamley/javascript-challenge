@@ -29,5 +29,5 @@ This project combines JavaScript, HTML, CSS, D3.js to create a dynamic webpage t
 
 <br>
 
-![ufo](UFO-level-1_and_2\static\css\images\site_shot.PNG)
+![ufo](UFO-level-1_and_2/static/css/images/site_shot.PNG)
 
